@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -42,14 +43,14 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -128,19 +129,19 @@
 <plain>
 <wire x1="50" y1="39.5" x2="49.5" y2="40" width="0.1" layer="20" curve="90"/>
 <wire x1="49.5" y1="40" x2="48.5" y2="40" width="0.1" layer="20"/>
-<wire x1="45.5" y1="40" x2="34.5" y2="40" width="0.1" layer="46"/>
-<wire x1="31.5" y1="40" x2="12" y2="40" width="0.1" layer="46"/>
+<wire x1="45.5" y1="40" x2="34.5" y2="40" width="0.1" layer="20"/>
+<wire x1="31.5" y1="40" x2="12" y2="40" width="0.1" layer="20"/>
 <wire x1="3.5857875" y1="36.5" x2="0.5" y2="36.5" width="0.1" layer="20"/>
 <wire x1="0.5" y1="31.5" x2="0" y2="32" width="0.1" layer="20" curve="-90"/>
 <wire x1="0" y1="32" x2="0" y2="36" width="0.1" layer="20"/>
 <wire x1="0" y1="36" x2="0.5" y2="36.5" width="0.1" layer="20" curve="-90"/>
 <wire x1="49.5" y1="28" x2="48.5" y2="28" width="0.1" layer="20"/>
-<wire x1="45.5" y1="28" x2="12" y2="28" width="0.1" layer="46"/>
+<wire x1="45.5" y1="28" x2="12" y2="28" width="0.1" layer="20"/>
 <wire x1="9" y1="28" x2="7.9142125" y2="28" width="0.1" layer="20"/>
-<wire x1="12" y1="14" x2="45.5" y2="14" width="0.1" layer="46"/>
+<wire x1="12" y1="14" x2="45.5" y2="14" width="0.1" layer="20"/>
 <wire x1="48.5" y1="14" x2="49.5" y2="14" width="0.1" layer="20"/>
 <wire x1="7.9142125" y1="26" x2="9" y2="26" width="0.1" layer="20"/>
-<wire x1="12" y1="26" x2="45.5" y2="26" width="0.1" layer="46"/>
+<wire x1="12" y1="26" x2="45.5" y2="26" width="0.1" layer="20"/>
 <wire x1="48.5" y1="26" x2="49.5" y2="26" width="0.1" layer="20"/>
 <wire x1="0.5" y1="17.5" x2="0" y2="18" width="0.1" layer="20" curve="-90"/>
 <wire x1="0" y1="18" x2="0" y2="22" width="0.1" layer="20"/>
@@ -209,7 +210,7 @@
 <wire x1="50" y1="28.5" x2="50" y2="39.5" width="0.1" layer="20"/>
 <wire x1="50" y1="11.5" x2="49.5" y2="12" width="0.1" layer="20" curve="90"/>
 <wire x1="49.5" y1="12" x2="48.5" y2="12" width="0.1" layer="20"/>
-<wire x1="45.5" y1="12" x2="12" y2="12" width="0.1" layer="46"/>
+<wire x1="45.5" y1="12" x2="12" y2="12" width="0.1" layer="20"/>
 <wire x1="3.5857875" y1="8.5" x2="0.5" y2="8.5" width="0.1" layer="20"/>
 <wire x1="0.5" y1="3.5" x2="0" y2="4" width="0.1" layer="20" curve="-90"/>
 <wire x1="0" y1="4" x2="0" y2="8" width="0.1" layer="20"/>
@@ -225,22 +226,22 @@
 <wire x1="0" y1="46" x2="0" y2="50" width="0.1" layer="20"/>
 <wire x1="0" y1="50" x2="0.5" y2="50.5" width="0.1" layer="20" curve="-90"/>
 <wire x1="49.5" y1="42" x2="48.5" y2="42" width="0.1" layer="20"/>
-<wire x1="45.5" y1="42" x2="41" y2="42" width="0.1" layer="46"/>
+<wire x1="45.5" y1="42" x2="41" y2="42" width="0.1" layer="20"/>
 <wire x1="0.5" y1="45.5" x2="3.5857875" y2="45.5" width="0.1" layer="20"/>
 <wire x1="49.5" y1="42" x2="50" y2="42.5" width="0.1" layer="20" curve="90"/>
 <wire x1="50" y1="42.5" x2="50" y2="53.5" width="0.1" layer="20"/>
 <text x="20.125" y="23.625" size="1.27" layer="1" font="vector" ratio="20" rot="R90">C</text>
 <wire x1="38.5" y1="53.5" x2="38" y2="54" width="0.1" layer="20" curve="90"/>
 <wire x1="38" y1="54" x2="7.9142125" y2="54" width="0.1" layer="20"/>
-<wire x1="38" y1="42" x2="34.5" y2="42" width="0.1" layer="46"/>
-<wire x1="31.5" y1="42" x2="12" y2="42" width="0.1" layer="46"/>
-<wire x1="38" y1="42" x2="38.5" y2="42.5" width="0.1" layer="46" curve="90"/>
-<wire x1="38.5" y1="42.5" x2="38.5" y2="46.75" width="0.1" layer="46"/>
+<wire x1="38" y1="42" x2="34.5" y2="42" width="0.1" layer="20"/>
+<wire x1="31.5" y1="42" x2="12" y2="42" width="0.1" layer="20"/>
+<wire x1="38" y1="42" x2="38.5" y2="42.5" width="0.1" layer="20" curve="90"/>
+<wire x1="38.5" y1="42.5" x2="38.5" y2="46.75" width="0.1" layer="20"/>
 <wire x1="38.5" y1="49.75" x2="38.5" y2="53.5" width="0.1" layer="20"/>
-<wire x1="40.5" y1="42.5" x2="40.5" y2="46.75" width="0.1" layer="46"/>
+<wire x1="40.5" y1="42.5" x2="40.5" y2="46.75" width="0.1" layer="20"/>
 <wire x1="40.5" y1="49.75" x2="40.5" y2="53.5" width="0.1" layer="20"/>
 <wire x1="40.5" y1="53.5" x2="41" y2="54" width="0.1" layer="20" curve="-90"/>
-<wire x1="40.5" y1="42.5" x2="41" y2="42" width="0.1" layer="46" curve="90"/>
+<wire x1="40.5" y1="42.5" x2="41" y2="42" width="0.1" layer="20" curve="90"/>
 <polygon width="0.254" layer="42">
 <vertex x="18.625" y="7.375"/>
 <vertex x="23.875" y="7.375"/>
@@ -327,21 +328,21 @@
 <vertex x="0" y="31.75"/>
 </polygon>
 <wire x1="9" y1="42" x2="9" y2="40" width="0.1" layer="20" curve="-180"/>
-<wire x1="12" y1="42" x2="12" y2="40" width="0.1" layer="46" curve="180"/>
-<wire x1="45.5" y1="42" x2="45.5" y2="40" width="0.1" layer="46" curve="-180"/>
+<wire x1="12" y1="42" x2="12" y2="40" width="0.1" layer="20" curve="180"/>
+<wire x1="45.5" y1="42" x2="45.5" y2="40" width="0.1" layer="20" curve="-180"/>
 <wire x1="48.5" y1="42" x2="48.5" y2="40" width="0.1" layer="20" curve="180"/>
 <wire x1="9" y1="28" x2="9" y2="26" width="0.1" layer="20" curve="-180"/>
-<wire x1="12" y1="28" x2="12" y2="26" width="0.1" layer="46" curve="180"/>
-<wire x1="45.5" y1="28" x2="45.5" y2="26" width="0.1" layer="46" curve="-180"/>
+<wire x1="12" y1="28" x2="12" y2="26" width="0.1" layer="20" curve="180"/>
+<wire x1="45.5" y1="28" x2="45.5" y2="26" width="0.1" layer="20" curve="-180"/>
 <wire x1="48.5" y1="28" x2="48.5" y2="26" width="0.1" layer="20" curve="180"/>
 <wire x1="9" y1="14" x2="9" y2="12" width="0.1" layer="20" curve="-180"/>
-<wire x1="12" y1="14" x2="12" y2="12" width="0.1" layer="46" curve="180"/>
-<wire x1="45.5" y1="14" x2="45.5" y2="12" width="0.1" layer="46" curve="-180"/>
+<wire x1="12" y1="14" x2="12" y2="12" width="0.1" layer="20" curve="180"/>
+<wire x1="45.5" y1="14" x2="45.5" y2="12" width="0.1" layer="20" curve="-180"/>
 <wire x1="48.5" y1="14" x2="48.5" y2="12" width="0.1" layer="20" curve="180"/>
-<wire x1="34.5" y1="42" x2="34.5" y2="40" width="0.1" layer="46" curve="180"/>
-<wire x1="31.5" y1="42" x2="31.5" y2="40" width="0.1" layer="46" curve="-180"/>
+<wire x1="34.5" y1="42" x2="34.5" y2="40" width="0.1" layer="20" curve="180"/>
+<wire x1="31.5" y1="42" x2="31.5" y2="40" width="0.1" layer="20" curve="-180"/>
 <wire x1="38.5" y1="49.75" x2="40.5" y2="49.75" width="0.1" layer="20" curve="180"/>
-<wire x1="38.5" y1="46.75" x2="40.5" y2="46.75" width="0.1" layer="46" curve="-180"/>
+<wire x1="38.5" y1="46.75" x2="40.5" y2="46.75" width="0.1" layer="20" curve="-180"/>
 <wire x1="7.9142125" y1="54" x2="7.20710625" y2="53.70710625" width="0.1" layer="20" curve="45"/>
 <wire x1="3.5857875" y1="50.5" x2="4.29289375" y2="50.79289375" width="0.1" layer="20" curve="45"/>
 <wire x1="4.29289375" y1="50.79289375" x2="7.20710625" y2="53.70710625" width="0.1" layer="20"/>
@@ -384,7 +385,7 @@
 <hole x="47" y="40.25" drill="0.4"/>
 <hole x="38.75" y="48.25" drill="0.4"/>
 <hole x="40.25" y="48.25" drill="0.4"/>
-<wire x1="34.5" y1="40" x2="34.5" y2="42" width="0.1" layer="46" curve="-180"/>
+<wire x1="34.5" y1="40" x2="34.5" y2="42" width="0.1" layer="20" curve="-180"/>
 <hole x="33" y="40.25" drill="0.4"/>
 <hole x="33" y="41.75" drill="0.4"/>
 <text x="22.875" y="9.375" size="1.27" layer="1" font="vector" ratio="20" rot="R90">D</text>
@@ -1068,10 +1069,10 @@ design rules under a new name.</description>
 <element name="C50" library="wingel" package="0402-SQUARE" value="10nF" x="10" y="44.25" rot="R90"/>
 <element name="C51" library="wingel" package="0402-SQUARE" value="10nF" x="8.75" y="44.25" rot="R90"/>
 <element name="IC11" library="wingel" package="SO08" value="LMH6702" x="11.875" y="48.25" rot="R270">
-<attribute name="OC_NEWARK" value="19M8943" x="11.875" y="48.25" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="AD9631ARZ" x="11.875" y="48.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="11.875" y="48.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="AD9631ARZ" x="11.875" y="48.25" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1319480" x="11.875" y="48.25" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="19M8943" x="11.875" y="48.25" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J9" library="wingel" package="AMP-29173-3-NARROW" value="CON-1X3-TAB-AMP-29173-3-NARROW" x="38.5" y="48" rot="MR270"/>
 <element name="J10" library="wingel" package="CARD_EDGE_PADS-1X2" value="HEADER-1X2CARD-EDGE" x="2" y="48" rot="R90"/>
@@ -1086,10 +1087,10 @@ design rules under a new name.</description>
 <element name="R69" library="wingel" package="0603-SQUARE" value="NF" x="42.75" y="46.625" rot="R270"/>
 <element name="R68" library="wingel" package="0402-SQUARE" value="50Ω" x="42.75" y="49.5" rot="R90"/>
 <element name="IC3" library="wingel" package="SO08" value="LMH6702" x="13.5" y="31.5" rot="R270">
-<attribute name="OC_NEWARK" value="19M8943" x="35.25" y="49.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="AD9631ARZ" x="35.25" y="49.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="35.25" y="49.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="AD9631ARZ" x="35.25" y="49.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1319480" x="35.25" y="49.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="19M8943" x="35.25" y="49.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R23" library="wingel" package="0402-SQUARE" value="NF" x="7.75" y="32" rot="R90"/>
 <element name="R20" library="wingel" package="0402-SQUARE" value="150Ω" x="5" y="32.25" rot="R270"/>
@@ -1101,10 +1102,10 @@ design rules under a new name.</description>
 <element name="R30" library="wingel" package="0402-SQUARE" value="50Ω" x="28.25" y="32.25" rot="R270"/>
 <element name="X2" library="wingel" package="BU-SMA-H" value="SMA--BU-SMA-H" x="34.25" y="34"/>
 <element name="IC4" library="wingel" package="SO08" value="LMH6702" x="23.75" y="33.5" rot="R270">
-<attribute name="OC_NEWARK" value="19M8943" x="7" y="51.75" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="AD9631ARZ" x="7" y="51.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="7" y="51.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="AD9631ARZ" x="7" y="51.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1319480" x="7" y="51.75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="19M8943" x="7" y="51.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R38" library="wingel" package="0402-SQUARE" value="220Ω" x="23.75" y="33.5" rot="MR180"/>
 <element name="R32" library="wingel" package="0402-SQUARE" value="1.1kΩ" x="18.625" y="36.125"/>
@@ -1113,10 +1114,10 @@ design rules under a new name.</description>
 <element name="C21" library="wingel" package="0402-SQUARE" value="10nF" x="8.375" y="30.125"/>
 <element name="C22" library="wingel" package="0402-SQUARE" value="10nF" x="8.375" y="28.875"/>
 <element name="IC5" library="wingel" package="SO08" value="LMH6702" x="13.5" y="36.75" rot="R270">
-<attribute name="OC_NEWARK" value="19M8943" x="-16" y="82" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="AD9631ARZ" x="-16" y="82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="-16" y="82" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="AD9631ARZ" x="-16" y="82" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1319480" x="-16" y="82" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="19M8943" x="-16" y="82" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R33" library="wingel" package="0402-SQUARE" value="NF" x="7.75" y="37.25" rot="R90"/>
 <element name="R28" library="wingel" package="0402-SQUARE" value="150Ω" x="5" y="35.75" rot="R90"/>
@@ -1131,10 +1132,10 @@ design rules under a new name.</description>
 <element name="R29" library="wingel" package="0402-SQUARE" value="0Ω/NF" x="6.25" y="35.75" rot="R270"/>
 <element name="R21" library="wingel" package="0402-SQUARE" value="0Ω/NF" x="6.25" y="32.25" rot="R90"/>
 <element name="IC2" library="burr-brown" package="SO08" value="OPA2130U" x="12.25" y="20" rot="R180">
-<attribute name="OC_NEWARK" value="35C1841" x="12.25" y="20" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="OPA2130UA" x="12.25" y="20" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="TEXAS INSTRUMENTS" x="12.25" y="20" size="1.27" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="OPA2130UA" x="12.25" y="20" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1459554" x="12.25" y="20" size="1.27" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="35C1841" x="12.25" y="20" size="1.27" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R4" library="wingel" package="0402-SQUARE" value="NF" x="7.5" y="18.375" rot="R270"/>
 <element name="R1" library="wingel" package="0402-SQUARE" value="" x="5" y="18.375" rot="R270"/>
@@ -1146,10 +1147,10 @@ design rules under a new name.</description>
 <element name="R11" library="wingel" package="0402-SQUARE" value="50Ω" x="27.5" y="18.75" rot="R270"/>
 <element name="X1" library="wingel" package="BU-SMA-H" value="SMA--BU-SMA-H" x="34.25" y="20"/>
 <element name="IC1" library="wingel" package="SO08" value="THS4721" x="22.75" y="20" rot="R270">
-<attribute name="OC_NEWARK" value="19M8943" x="10.25" y="38" size="1.27" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="AD9631ARZ" x="10.25" y="38" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="10.25" y="38" size="1.27" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="AD9631ARZ" x="10.25" y="38" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1319480" x="10.25" y="38" size="1.27" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="19M8943" x="10.25" y="38" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R19" library="wingel" package="0402-SQUARE" value="" x="22.75" y="23.25"/>
 <element name="R13" library="wingel" package="0402-SQUARE" value="" x="16.25" y="20.625"/>
@@ -1195,10 +1196,10 @@ design rules under a new name.</description>
 <element name="R41" library="wingel" package="0402-SQUARE" value="50Ω" x="27" y="5" rot="R270"/>
 <element name="X3" library="wingel" package="BU-SMA-H" value="SMA--BU-SMA-H" x="34.25" y="6"/>
 <element name="IC7" library="wingel" package="SO08" value="THS4721" x="22.5" y="6.25" rot="R270">
-<attribute name="OC_NEWARK" value="19M8943" x="7" y="38" size="1.27" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="AD9631ARZ" x="7" y="38" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="7" y="38" size="1.27" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="AD9631ARZ" x="7" y="38" size="1.27" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1319480" x="7" y="38" size="1.27" layer="27" rot="R270" display="off"/>
+<attribute name="OC_NEWARK" value="19M8943" x="7" y="38" size="1.27" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R42" library="wingel" package="0402-SQUARE" value="" x="22.5" y="6.25" rot="MR180"/>
 <element name="R43" library="wingel" package="0402-SQUARE" value="" x="16.5" y="8" rot="R270"/>
@@ -1227,10 +1228,10 @@ design rules under a new name.</description>
 <element name="R55" library="wingel" package="0402-SQUARE" value="" x="10" y="7.75" rot="R90"/>
 <element name="R56" library="wingel" package="0402-SQUARE" value="" x="10" y="4.25" rot="R270"/>
 <element name="X4" library="wingel" package="J502-ND-142-0711-821/826" value="SMA-142-0711-821/826" x="50" y="48.125" rot="R180">
-<attribute name="OC_NEWARK" value="16F3627" x="50" y="48.125" size="1.27" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="142-0711-821" x="50" y="48.125" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="JOHNSON COMPONENTS" x="50" y="48.125" size="1.27" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="142-0711-821" x="50" y="48.125" size="1.27" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1019328" x="50" y="48.125" size="1.27" layer="27" rot="R180" display="off"/>
+<attribute name="OC_NEWARK" value="16F3627" x="50" y="48.125" size="1.27" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R58" library="wingel" package="0402-SQUARE" value="NF" x="7.25" y="45.75" rot="R270"/>
 <element name="R59" library="wingel" package="0402-SQUARE" value="NF" x="17.125" y="45.125"/>
@@ -1609,11 +1610,11 @@ design rules under a new name.</description>
 <via x="37" y="43.75" extent="1-16" drill="0.4" diameter="0.8"/>
 <via x="35.5" y="42.75" extent="1-16" drill="0.4" diameter="0.8"/>
 <via x="37" y="42.75" extent="1-16" drill="0.4" diameter="0.8"/>
-<wire x1="29.5" y1="34.875" x2="29.5" y2="35.5" width="0" layer="19" extent="1-1"/>
-<wire x1="29.5" y1="34.25" x2="29.5" y2="34.875" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="34.875" x2="29.5" y2="35.5" width="0.1524" layer="1"/>
+<wire x1="29.5" y1="34.25" x2="29.5" y2="34.875" width="0.1524" layer="1"/>
+<wire x1="48.5" y1="39.25" x2="47.8846" y2="44.6304" width="0" layer="19" extent="1-1"/>
 <wire x1="48.5" y1="25.25" x2="48.5" y2="28.75" width="0" layer="19" extent="1-1"/>
 <wire x1="48.5" y1="11.25" x2="48.5" y2="14.75" width="0" layer="19" extent="1-1"/>
-<wire x1="47.8846" y1="44.6304" x2="48.5" y2="39.25" width="0" layer="19" extent="1-1"/>
 <wire x1="8.75" y1="43.625" x2="9" y2="37.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$6">
